@@ -1,0 +1,991 @@
+# SOME DESCRIPTIVE TITLE.
+# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
+# This file is distributed under the same license as the PACKAGE package.
+# FIRST AUTHOR <EMAIL@ADDRESS>, YEAR.
+#
+msgid ""
+msgstr ""
+"Project-Id-Version: \n"
+"Report-Msgid-Bugs-To: \n"
+"POT-Creation-Date: 2019-12-20 13:23+0530\n"
+"PO-Revision-Date: 2019-12-20 13:25+0530\n"
+"Language-Team: \n"
+"MIME-Version: 1.0\n"
+"Content-Type: text/plain; charset=UTF-8\n"
+"Content-Transfer-Encoding: 8bit\n"
+"Plural-Forms: nplurals=2; plural=(n != 1);\n"
+"X-Generator: Poedit 2.2.4\n"
+"Last-Translator: \n"
+"Language: en\n"
+
+#: multiple-payment-solutions-for-woocommerce.php:48
+#, php-format
+msgid ""
+"Multiple Payment Solutions for WooCommerce to be installed and active. You "
+"can download %s here."
+msgstr ""
+
+#: multiple-payment-solutions-for-woocommerce.php:128
+msgid "Indian Rupee"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:15
+msgid ""
+"Direct payment via Instamojo. Instamojo accepts Credit / Debit Cards, "
+"Netbanking."
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:64
+msgid "Enable/Disable"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:65
+msgid "Enable Instamojo Gateway"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:71
+#: admin/stripe/class-stripe-payments.php:144
+msgid "Title"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:73
+#: admin/paytm/class-paytm-payments.php:91
+#: admin/payumoney/class-payu-payments.php:87
+#: admin/payumoney/class-payu-payments.php:93
+#: admin/razorpay/class-razorpay-payments.php:81
+#: admin/razorpay/class-razorpay-payments.php:87
+msgid "This controls the title which the user sees during checkout."
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:78
+#: admin/stripe/class-stripe-payments.php:151
+msgid "Description"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:80
+#: admin/paytm/class-paytm-payments.php:98
+msgid "This controls the description which the user sees during checkout."
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:84
+msgid "Test mode"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:85
+msgid "Enable Test Mode"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:87
+msgid "Place the payment gateway in test mode using test API keys."
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:92
+msgid "Test Private Auth Token"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:96
+msgid "Test Private API Key"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:100
+msgid "Live Private Auth Token"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:104
+msgid "Live Private API Key"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:116
+msgid "Instamojo "
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:117
+msgid ""
+"Instamojo works by sending the user to Instamojo payment popup box to "
+"complete their payment process. Note that Instamojo will only take payments "
+"in Indian Rupee(INR)."
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:131
+msgid "Instamojo  Gateway Disabled"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:132
+#, php-format
+msgid ""
+"Choose Indian Rupee (Rs.) as your store currency in \n"
+"\t\t\t\t\t\t<a href=\"%s\">Pricing Options</a> to enable the Instamojo "
+"WooCommerce payment gateway."
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:174
+msgid "Data sent for creating order "
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:198
+msgid "Response from server on creating order"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:202
+msgid ""
+"<button type=\"button\" id=\"wl_sms_intamojo_pay_btn\">Pay Now</button>\n"
+"                <script>\n"
+"                jQuery(document).ready(function () {\n"
+"                    \"use strict\";\n"
+"                    jQuery(document).on(\"click\", \"#wl_sms_intamojo_pay_btn"
+"\", function (e) {\n"
+"                        e.preventDefault();\n"
+"                        Instamojo.open(\""
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:213
+msgid "Response from server:"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:214
+msgid "An error occurred, Response from server:  "
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:230
+msgid ""
+"TEST MODE ENABLED. In test mode, you can use the card numbers listed in "
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:273
+msgid "First name is required!"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:277
+msgid "Last name is required!"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:281
+msgid "Email is required!"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:309
+msgid ""
+"Thank you for your order, please click the button below to Pay with "
+"Instamojo."
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:334
+msgid "Customer isn't satisfied with the quality"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:380
+#: admin/paytm/class-paytm-payments.php:537
+#, php-format
+msgid "Refund: %1$s %2$s<br>Paytm Refund ID: %3$s<br>Reference ID: %4$s"
+msgstr ""
+
+#: admin/instamojo/class-instamojo-payments.php:384
+msgid "Not Refunded"
+msgstr ""
+
+#: admin/instamojo/payment-confirm.php:10
+msgid "Callback Called without  payment ID or payment req id exittng.."
+msgstr ""
+
+#: admin/instamojo/payment-confirm.php:59
+msgid "Response from server: "
+msgstr ""
+
+#: admin/instamojo/payment-confirm.php:75
+msgid "Extracted order id from trasaction_id: "
+msgstr ""
+
+#: admin/instamojo/payment-confirm.php:86
+msgid ""
+"Unpaid order cancelled - Instamojo Returned Failed Status for payment Id "
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:14
+msgid "Weblizar Paytm Gateway"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:15
+msgid ""
+"Direct payment via Paytm. Paytm accepts Credit / Debit Cards and Refund "
+"options"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:42
+#: admin/paytm/class-paytm-payments.php:146
+msgid "Thank you! your order has been received."
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:47
+#: admin/paytm/class-paytm-payments.php:152
+msgid ""
+"Thank you for your order. We are now redirecting you to Pay with Paytm to "
+"make payment."
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:55
+msgid "Sandbox Paytm"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:83
+#: admin/payumoney/class-payu-payments.php:79
+#: admin/razorpay/class-razorpay-payments.php:73
+msgid "Enable/Disable:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:85
+msgid "Enable Paytm"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:89
+#: admin/payumoney/class-payu-payments.php:85
+#: admin/razorpay/class-razorpay-payments.php:79
+msgid "Title:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:93
+msgid "Paytm"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:96
+#: admin/payumoney/class-payu-payments.php:91
+#: admin/razorpay/class-razorpay-payments.php:85
+msgid "Description:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:99
+msgid ""
+"Direct payment via Paytm. Paytm accepts VISA, MasterCard, Debit Cards and "
+"the Net Banking of all major banks."
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:102
+msgid "Merchant ID:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:105
+msgid ""
+"This Merchant ID is generated at the time of activation of your site and "
+"helps to uniquely identify you to Paytm Merchant"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:110
+#: admin/payumoney/class-payu-payments.php:97
+msgid "Merchant Key:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:113
+msgid "String of Key characters provided by Paytm"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:118
+msgid "Industry Type:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:121
+msgid ""
+"INDUSTRY TYPE ID provided by Paytm use <b>Retail</b> for sandbox/test mode"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:126
+msgid "Website:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:129
+msgid ""
+"Website url provided by Paytm use <b>WEBSTAGING</b> for sandbox/test mode"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:134
+#: admin/payumoney/class-payu-payments.php:111
+#: admin/razorpay/class-razorpay-payments.php:105
+msgid "Mode of transaction:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:136
+msgid "Paytm Tranasction Mode."
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:139
+msgid "Mode of Paytm activities"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:143
+#: admin/payumoney/class-payu-payments.php:120
+msgid "Thank you page message:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:145
+#: admin/payumoney/class-payu-payments.php:122
+msgid "Thank you page order success message when order has been received"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:149
+msgid "Redirecting you to Pay with Paytm:"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:151
+msgid "We are now redirecting you to Paytm to make payment"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:163
+msgid "Paytm "
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:164
+msgid ""
+"Paytm works by sending the user to Paytm to enter their payment information "
+"to complete their payment process. Note that Paytm will only take payments "
+"in Indian Rupee(INR)."
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:178
+msgid "Paytm  Gateway Disabled"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:179
+#, php-format
+msgid ""
+"Choose Indian Rupee (Rs.) as your store currency in \n"
+"\t\t\t\t\t\t<a href=\"%s\">Pricing Options</a> to enable the Paytm "
+"WooCommerce payment gateway."
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:213
+msgid "Paytm Arrgument passed for creating payments."
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:230
+msgid "Pay with Paytm"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:230
+#: admin/payumoney/class-payu-payments.php:212
+msgid "Cancel order &amp; restore cart"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:279
+msgid ""
+"Thank you for your order, please click the button below to Pay with Paytm."
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:316
+msgid "Error on payment: Paytm payment failed!"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:329
+#: admin/paytm/class-paytm-payments.php:334
+#, php-format
+msgid ""
+"Reference Order ID: %1$s<br>Paytm Transaction ID: %2$s<br>Bank Ref: "
+"%3$s<br>Transaction method: %4$s"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:339
+#, php-format
+msgid "Paytm payment is failed.<br>Reference Order ID: %1$s<br>Error: %2$s"
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:342
+msgid "Error on payment: Paytm payment failed! Reference Order ID: "
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:533
+msgid "Refund Response:- "
+msgstr ""
+
+#: admin/paytm/class-paytm-payments.php:570
+msgid "Wblizar Paytm Log"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:14
+#: admin/payumoney/class-payu-payments.php:130
+msgid "Weblizar PayUmoney Gateway"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:15
+msgid "PayUmoney is a trusted way to payment in India (INR)"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:44
+msgid "Sandbox PayUmoney"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:81
+msgid "Enable PayUmoney"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:88
+msgid "PayUmoney"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:94
+msgid ""
+"Direct payment via PayUmoney. PayUmoney accepts VISA, MasterCard, Debit "
+"Cards and the Net Banking of all major banks."
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:100
+msgid ""
+"This key is generated at the time of activation of your site and helps to "
+"uniquely identify you to PayUmoney"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:104
+msgid "SALT:"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:107
+msgid "String of characters provided by PayUmoney"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:113
+msgid "PayUindia Tranasction Mode."
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:116
+msgid "Mode of PayUindia activities"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:123
+msgid "Thank you. Your order has been received."
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:131
+msgid ""
+"PayUmoney works by sending the user to PayUmoney to enter their payment "
+"information. Note that PayUmoney will only take payments in Indian Rupee."
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:142
+msgid "Weblizar PayUmoney Gateway Disabled"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:143
+#: admin/razorpay/class-razorpay-payments.php:181
+#, php-format
+msgid ""
+"Choose Indian Rupee (Rs.) as your store currency in <a href=\"%s\">Pricing "
+"Options</a> to enable the PayUmoney WooCommerce payment gateway"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:159
+msgid "Order ID:"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:212
+msgid "Pay via PayUmoney"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:217
+msgid ""
+"Thank you for your order. We are now redirecting you to PayU to make payment."
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:261
+msgid ""
+"Thank you for your order, please click the button below to pay with "
+"PayUmoney."
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:295
+msgid "No transaction data was passed!"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:312
+msgid "Error on payment: PayUmoney payment is failed"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:322
+#: admin/payumoney/class-payu-payments.php:375
+msgid "Error on payment: Hash incorrect!"
+msgstr ""
+
+#: admin/payumoney/class-payu-payments.php:408
+#, php-format
+msgid "Refund: %1$s %2$s<br>PayUmoney Refund ID: %3$s<br>Order ID: %4$s"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:15
+msgid "Weblizar Razorpay Gateway"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:16
+#: admin/razorpay/class-razorpay-payments.php:88
+msgid ""
+"Razorpay is a trusted way to payment in India (INR). Allow customers to "
+"securely pay via Razorpay (Credit/Debit Cards, NetBanking, UPI, Wallets )"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:48
+msgid "Click here for "
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:48
+msgid "Test card details for test payments."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:75
+msgid "Enable Razorpay"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:82
+msgid "Razorpay"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:91
+msgid "Logo Image (190×60)"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:93
+msgid ""
+"If you want Razorpay to co-brand the checkout box with your logo, enter the "
+"URL of your logo image here.<br/>The image must be no larger than 190x60, "
+"GIF, PNG, or JPG format, and should be served over HTTPS."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:96
+msgid "Your Logo URL for Razorpay payment popup box."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:99
+msgid "Color for checkout popup box:"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:101
+msgid ""
+"This controls the color which the user sees during checkout for razorpay "
+"checkout payment box."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:102
+msgid "#F37254"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:107
+msgid "Razorpay Test Mode."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:110
+msgid "Mode of Razorpay transaction activities"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:114
+msgid "Test Key ID:"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:116
+msgid ""
+"The key Id can be generated from \"API Keys\" section of Razorpay Dashboard. "
+"Use test Key ID for test Payments."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:119
+msgid "Test Key Secret:"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:121
+msgid ""
+"The key secret can be generated from \"API Keys\" section of Razorpay "
+"Dashboard. Use test secret for test mode."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:124
+msgid "Live Key ID:"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:126
+msgid ""
+"The key Id can be generated from \"API Keys\" section of Razorpay Dashboard. "
+"Use Live Key ID for Live Payments."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:129
+msgid "Live Key Secret:"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:131
+msgid ""
+"The key secret can be generated from \"API Keys\" section of Razorpay "
+"Dashboard. Use Live secret for live mode."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:134
+msgid "Payment Action"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:136
+msgid "Payment action on order compelete"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:144
+msgid "Order Completion Message"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:146
+msgid "Message to be displayed after a successful order"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:147
+#: admin/razorpay/class-razorpay-payments.php:199
+msgid ""
+"Thank you for shopping with us. Your account has been charged and your "
+"transaction is successful. We will be processing your order soon."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:150
+msgid "Enable Webhook"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:153
+msgid ""
+"Enable Razorpay Webhook <a href=\"https://dashboard.razorpay.com/#/app/"
+"webhooks\">here</a> with the URL listed below."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:157
+msgid "Webhook Secret"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:159
+msgid ""
+"Webhook secret is used for webhook signature verification. This has to match "
+"the one added <a href=\"https://dashboard.razorpay.com/#/app/webhooks"
+"\">here</a>"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:168
+msgid "Weblizar Razorpay Payment Gateway"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:169
+msgid ""
+"Razorpay Allows payments by Credit/Debit Cards, NetBanking, UPI, and "
+"multiple Wallets. Note that Razorpay will only take payments in Indian Rupee."
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:180
+msgid "Weblizar Razorpay Gateway Disabled"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:222
+msgid "Refund failed: No transaction ID"
+msgstr ""
+
+#: admin/razorpay/class-razorpay-payments.php:241
+msgid "Refund Id: "
+msgstr ""
+
+#: admin/razorpay/lib/encdec_razorpay.php:87
+msgid "RAZORPAY ERROR: Razorpay API could not be reached"
+msgstr ""
+
+#: admin/razorpay/lib/encdec_razorpay.php:116
+msgid ""
+"Thank you for your order, please click the button below to pay with Razorpay."
+msgstr ""
+
+#: admin/stripe/class-stripe-intent-manager.php:25
+#, php-format
+msgid "Payment verification error: %s"
+msgstr ""
+
+#: admin/stripe/class-stripe-intent-manager.php:71
+msgid "CSRF verification failed."
+msgstr ""
+
+#: admin/stripe/class-stripe-intent-manager.php:84
+msgid "Missing order ID for payment confirmation"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:8
+msgid "Weblizar Stripe Gateway"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:38
+msgid ""
+"Accept credit card payments directly on your website via Stripe payment "
+"gateway."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:40
+#, php-format
+msgid ""
+"Stripe works by adding payment fields on the checkout and then sending the "
+"details to Stripe for verification. <a href=\"%1$s\" target=\"_blank\">Sign "
+"up</a> for a Stripe account, and <a href=\"%2$s\" target=\"_blank\">get your "
+"Stripe account keys</a>."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:44
+msgid "Stripe TEST MODE Enabled: "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:44
+msgid " Use these "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:44
+msgid " Test Card Details "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:44
+msgid " for Testing."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:138
+msgid "Stripe Payment"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:139
+msgid "Enable"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:146
+msgid "Enter the title of the checkout which the user can see."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:147
+msgid "Stripe"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:154
+msgid "Description which the user sees during checkout."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:155
+msgid "Secure payment via Stripe."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:159
+msgid "Order Button Text"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:161
+msgid "Enter the Order Button Text of the payment page."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:162
+msgid "Pay via Stripe"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:166
+msgid "Preferred Cards"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:170
+msgid ""
+"Select the card types to display the card logo in the checkout page as "
+"preferred card."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:189
+msgid "Transaction Mode"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:192
+msgid "Test Mode"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:193
+msgid "Live Mode"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:196
+msgid ""
+"Check appropriate Stripe mode is checked in Stripe  <a href=\"https://"
+"dashboard.stripe.com/dashboard\" target=\"_blank\"> Dashboard </a>"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:201
+msgid "Test Publishable Key"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:203
+msgid "Enter Stripe Test mode Publishable Key."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:208
+msgid "Test Secret Key"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:210
+msgid "Enter Stripe Test mode Secret Key."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:215
+msgid "Live Secret Key"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:217
+#: admin/stripe/class-stripe-payments.php:224
+msgid "Enter Stripe Live mode Publishable Key."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:222
+msgid "Live Publishable Key"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:229
+msgid "Capture Payment"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:230
+msgid "Capture Payment Immediately"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:232
+msgid ""
+"Whether or not to immediately capture the charge.Uncaptured charges will "
+"expire in 7 days."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:237
+msgid "Restrict Cards"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:238
+msgid "Restrict Cards except Preferred Cards"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:240
+msgid ""
+"If enabling Restrict Cards, the card which all are mentioned in preferred "
+"cards only can allow for transaction."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:245
+msgid "Email Transaction Receipt"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:246
+msgid "Enable "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:248
+msgid ""
+"If enabling Email Transaction Receipt, the transaction receipt will send as "
+"email to the customers by Stripe."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:253
+msgid "Statement Descriptor"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:254
+msgid ""
+"This may be up to 22 characters. The statement description must contain at "
+"least one letter, may not include ><\"' characters, and will appear on your "
+"customer's statement in capital letters."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:303
+msgid "Please accept the terms and conditions first"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:304
+msgid "Please fill in required checkout fields first"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:340
+msgid "Pay"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:383
+msgid "Card Number"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:394
+msgid "Expiry Date"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:402
+msgid "Card Code (CVC)"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:740
+msgid "Admin declined the payment due to Card Restriction."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:742
+msgid "Seller declined "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:742
+msgid "payment due to Card Restriction. Reload and try with some other Cards"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:764
+msgid "Payment Failed "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:764
+msgid "Refresh and try again"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:790
+msgid "Payment Status : "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:790
+#: admin/stripe/class-stripe-payments.php:1171
+msgid "Source : "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:790
+msgid "Charge Status :"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:856
+#: admin/stripe/class-stripe-payments.php:861
+#: admin/stripe/class-stripe-payments.php:867
+msgid "Reason : "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:856
+#: admin/stripe/class-stripe-payments.php:861
+#: admin/stripe/class-stripe-payments.php:867
+msgid "Amount : "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:856
+#: admin/stripe/class-stripe-payments.php:867
+msgid "Status : "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:856
+#: admin/stripe/class-stripe-payments.php:1171
+msgid "Transaction ID : "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:861
+msgid " Status : Failed "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:871
+msgid "Uncaptured Amount cannot be refunded"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:1061
+#, php-format
+msgid "Stripe SCA authentication failed. Reason: %s"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:1062
+msgid "Stripe SCA authentication failed."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:1093
+msgid "Need to autherise the payment."
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:1133
+msgid "Capture Stripe Payment"
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:1171
+msgid "Capture Status : "
+msgstr ""
+
+#: admin/stripe/class-stripe-payments.php:1171
+msgid "Charge Status : "
+msgstr ""
